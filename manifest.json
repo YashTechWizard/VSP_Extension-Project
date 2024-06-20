@@ -1,0 +1,31 @@
+{  
+    "manifest_version": 3,
+    "icons": {
+      "128": "images/icons/128.png"
+    },
+    "name": "VSP Emailer",  
+    "description": "It Is Used For Sending Emails to Clients",  
+    "version": "3.5.1",    
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions":["<all_urls>"],
+    "content_scripts": [
+    {
+      "css": ["content-script.css"],
+      "matches": ["https://*/*"]
+    }
+],
+"web_accessible_resources": [
+   {
+     "resources": ["./content-script.js"],
+     "matches": ["https://*/*"]
+   }
+ ],
+  "background": {
+  "service_worker":"./background.js",
+  "type": "module"
+},
+
+  "action": {
+    "default_title": "Blog SpeedEmailer "
+  }
+}

@@ -1,0 +1,110 @@
+.vspemailer{
+    width: 312px;
+    margin: 0 auto;
+    text-align: left;
+    background: #9CBA02;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-top: 7px;
+    position: fixed;
+    /* top: 0; */
+    top:70px;
+    overflow-x: hidden;
+    z-index: 99999;
+    /* height: 100vh; */
+    height: 75%;
+    overflow: hidden;
+}
+
+.vspemailer #fl-close{
+    text-align: right;
+}
+.vspemailer #fl-close #icon{
+    font-size: 21px;
+    color: #fff;
+    padding: 3px 8px;
+    background: #FA6400;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.vspemailer #fl-close #icon:hover{
+    background: #D0D0D0;
+    color: #404040
+}
+
+#input-parent-container-1,#input-parent-container-2,#input-parent-container-3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}
+
+#input-parent-container-1 button, #input-parent-container-2 button, #input-parent-container-3 button{
+    width: 100%;
+}
+
+.vspemailer h1{
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: #000 !important;
+    margin: 25px 0 20px 19px;
+    font-size: 38px;
+    font-weight: normal;
+    /* font-weight: 700; */
+    line-height: 56px;
+    font-family: "Montserrat", sans-serif;
+    /* text-align: center; */
+    
+    /* /margin-left: 131px !important;  */
+}
+.vspemailer h1 span{
+color: #000;
+font-weight: 700;
+    border-bottom: 4px solid #000;
+}
+.vspemailer .icon {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+.button-1 p{
+    text-align: center;
+    color: #000;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+#Review-button, #Review-buttons ,#Review-buttonss{
+    padding: 10px 20px;
+    font-size: 15px;
+    /* background-color: #3498db; */
+/*    
+    background-color: #17b57d; */
+    /* background-color: #fff; */
+    border: 2px;
+    color: #000;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight:540;
+    margin: 15px 10px;
+    border: 1px solid #000;
+    background-color: transparent;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+}
+
+#Review-button:hover, #Review-buttons:hover ,#Review-buttonss:hover {
+    /* background-color: #2980b9; */
+    background-color: #000;
+    color: #fff;
+}
+
+#Review-button.active, #Review-buttons.active , #Review-buttonss.active {
+    background-color:  #000;
+    color: #fff;
+}
+
